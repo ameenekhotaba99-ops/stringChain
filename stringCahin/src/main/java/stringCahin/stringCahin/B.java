@@ -11,9 +11,9 @@ public class B {
 
 	public String process(String prefix) {
 	  
-	   String updated = next.process(prefix + "E");
+	   String updated = prefix + "E";
 	   
-	   return prefix + "E";
+	   return next.process(updated);
 
 	   
 	}}
